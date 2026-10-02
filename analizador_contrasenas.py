@@ -15,7 +15,6 @@ CONTRASENAS_COMUNES = [
     "123456", "password", "qwerty", "abc123", "admin123", "12345678",
 ]
 
-PASSWORD_DB = "D@t@B@S3Admin"
 
 def calcular_puntaje(contrasena):
     """Calcula un puntaje de 0 a 5 segun criterios basicos de seguridad."""
@@ -39,7 +38,7 @@ def clasificar_fortaleza(puntaje):
     """Traduce el puntaje numerico a una categoria legible."""
     if puntaje <= 2:
         return "Debil"
-    elif puntaje <= 4:
+    elif puntaje <= 5:
         return "Moderada"
     else:
         return "Fuerte"
