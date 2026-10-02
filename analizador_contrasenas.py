@@ -39,6 +39,8 @@ def clasificar_fortaleza(puntaje):
     if puntaje <= 2:
         return "Debil"
     elif puntaje <= 5:
+        
+    elif puntaje <= 4:
         return "Moderada"
     else:
         return "Fuerte"
