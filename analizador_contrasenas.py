@@ -38,7 +38,7 @@ def clasificar_fortaleza(puntaje):
     """Traduce el puntaje numerico a una categoria legible."""
     if puntaje <= 2:
         return "Debil"
-    elif puntaje <= 4:
+    elif puntaje <= 3:
         return "Moderada"
     else:
         return "Fuerte"
